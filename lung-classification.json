@@ -1,0 +1,12 @@
+{ 
+	"classNames": ["No Findings", "Atelectasis", "Consolidation", "Infiltration", "Pneumothorax", "Edema", "Emphysema", "Fibrosis", "Effusion", "Pneumonia", "Pleural_thickening", "Cardiomegaly", "Nodule", "Mass", "Hernia"],
+	"exampleDataUrl": "https://raw.githubusercontent.com/pbizopoulos/tmp/main/lung-classification-example-data.jpg",
+	"loss": "categoricalCrossentropy",
+	"machineLearningType": "image classification",
+	"metrics": ["accuracy"],
+	"modelDownloadUrl": "https://raw.githubusercontent.com/pbizopoulos/tmp/main/mobilenet_v2.imagenet/model.json",
+	"modelUploadUrl": "http://172.17.0.2:5000/upload",
+	"name": "X-rays lung classification (mobilenet_v2 imagenet)",
+	"optimizer": "adam",
+	"projectUrl": "https://github.com/pbizopoulos/tmp"
+}
